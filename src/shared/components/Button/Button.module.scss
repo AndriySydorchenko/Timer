@@ -1,0 +1,34 @@
+
+.button {
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 24px;
+    color: #000000;
+    padding: 7px 30px;
+    margin-right: 10px;
+
+  &-basic {
+    border: none;
+    background-color: #FFFFFF;
+
+  }
+
+  &-outline {
+    background-color: transparent;
+    border: 1px solid #567EF7;
+    color: #567EF7;
+
+  }
+
+  &-inactive {
+    border: none;
+    background-color: #3F456C;
+    color: #FFFFFF;
+  }
+
+}
+
